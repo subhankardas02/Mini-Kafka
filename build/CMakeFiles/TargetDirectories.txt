@@ -1,0 +1,3 @@
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/mini_kafka.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/edit_cache.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/rebuild_cache.dir
