@@ -10,4 +10,4 @@ std::shared_ptr<Topic> Broker::get_or_create_topic(const std::string& topic_name
     return topics_[topic_name];
 }
 
-} // namespace minikafka
+}

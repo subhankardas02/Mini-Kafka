@@ -9,7 +9,6 @@ namespace minikafka {
 
 class Broker {
 public:
-    // Retrieve an existing topic or create a new one
     std::shared_ptr<Topic> get_or_create_topic(const std::string& topic_name);
 
 private:
@@ -17,4 +16,4 @@ private:
     std::mutex mtx_;
 };
 
-} // namespace minikafka
+}

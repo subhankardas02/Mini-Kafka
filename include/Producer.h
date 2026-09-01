@@ -13,4 +13,4 @@ private:
     Broker& broker_;
 };
 
-} // namespace minikafka
+}

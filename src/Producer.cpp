@@ -17,11 +17,9 @@ int main() {
             std::string topic = "system-logs";
             std::string msg = "Log_Entry_" + std::to_string(i);
             
-            // Format: PRODUCE <topic> <message>\n
             std::string request = "PRODUCE " + topic + " " + msg + "\n";
             boost::asio::write(socket, boost::asio::buffer(request));
 
-            // Wait for OK acknowledgment
             boost::asio::streambuf buffer;
             boost::asio::read_until(socket, buffer, '\n');
 

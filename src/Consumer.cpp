@@ -15,7 +15,6 @@ int main() {
         size_t current_offset = 0;
 
         while (true) {
-            // Format: FETCH <topic> <offset>\n
             std::string request = "FETCH " + topic + " " + std::to_string(current_offset) + "\n";
             boost::asio::write(socket, boost::asio::buffer(request));
 
@@ -28,14 +27,12 @@ int main() {
             std::getline(is, payload);
 
             if (response_type == "MSG") {
-                // Clean leading space
                 if (!payload.empty() && payload[0] == ' ') payload = payload.substr(1);
                 if (!payload.empty() && payload.back() == '\r') payload.pop_back();
 
                 std::cout << "[Consumer] Processed (Offset " << current_offset << "): " << payload << "\n";
-                current_offset++; // Advance offset only on success
+                current_offset++;
             } else if (response_type == "NONE") {
-                // Timeout occurred, just loop and poll again
                 std::cout << "[Consumer] Polling... no new messages.\n";
             }
         }
