@@ -41,5 +41,4 @@ int main() {
 
     std::cout << "Mini-Kafka demo completed.\n";
     return 0;
-    //   jkkklkl
 }
