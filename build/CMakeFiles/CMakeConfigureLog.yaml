@@ -20,7 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -52,14 +52,14 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/uname"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -118,7 +118,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -150,110 +150,14 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/gmake"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/sbin/gmake"
     found: "/usr/bin/gmake"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/Wbem"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
-        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "/mnt/c/MinGW/bin"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/Program Files/Java/jdk-25.0.3/bin"
-        - "/mnt/c/Program Files/apache-maven-3.9.16/bin"
-        - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/"
-        - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps"
-        - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin"
-        - "/mnt/c/Users/dassu/go/bin"
-        - "/snap/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/usr/lib/wsl/lib/"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/"
-      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/"
-      - "/mnt/c/WINDOWS/system32/"
-      - "/mnt/c/WINDOWS/"
-      - "/mnt/c/WINDOWS/System32/Wbem/"
-      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-      - "/mnt/c/WINDOWS/System32/OpenSSH/"
-      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
-      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
-      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
-      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/"
-      - "/mnt/c/Program Files/Git/cmd/"
-      - "/mnt/c/Program Files/Go/bin/"
-      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/"
-      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/"
-      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
-      - "/mnt/c/Users/dassu/go/bin/"
-      - "/snap/bin/"
-    searched_directories:
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/cc"
-      - "/usr/local/sbin/cc"
-      - "/usr/local/bin/cc"
-      - "/usr/sbin/cc"
-    found: "/usr/bin/cc"
-    search_context:
-      ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -311,7 +215,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -351,7 +255,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiler: /mnt/c/MinGW/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
@@ -359,10 +263,10 @@ events:
       0
       
       
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        /home/sudo_subhankar/MiniKafka/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+        /home/sudo_subhankar/MiniKafka/build/CMakeFiles/4.2.3/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -384,11 +288,12 @@ events:
     names:
       - "ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -402,7 +307,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -415,10 +319,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/ar"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -469,11 +379,12 @@ events:
     names:
       - "ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -487,7 +398,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -500,10 +410,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/ranlib"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -554,11 +470,12 @@ events:
     names:
       - "strip"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -572,7 +489,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -585,10 +501,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/strip"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -639,11 +561,12 @@ events:
     names:
       - "ld"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -657,7 +580,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -670,10 +592,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/ld"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -724,11 +652,12 @@ events:
     names:
       - "nm"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -742,7 +671,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -755,10 +683,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/nm"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -809,11 +743,12 @@ events:
     names:
       - "objdump"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -827,7 +762,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -840,10 +774,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/objdump"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -894,11 +834,12 @@ events:
     names:
       - "objcopy"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -912,7 +853,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -925,10 +865,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/objcopy"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -979,11 +925,12 @@ events:
     names:
       - "readelf"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -997,7 +944,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1010,10 +956,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/readelf"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1064,11 +1016,12 @@ events:
     names:
       - "dlltool"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1082,7 +1035,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1096,11 +1048,12 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/dlltool"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/dlltool"
+      - "/mnt/c/MinGW/bin/dlltool"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
       - "/sbin/dlltool"
       - "/bin/dlltool"
       - "/usr/games/dlltool"
@@ -1114,7 +1067,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/dlltool"
       - "/mnt/c/WINDOWS/System32/OpenSSH/dlltool"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/dlltool"
-      - "/mnt/c/MinGW/bin/dlltool"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dlltool"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/dlltool"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/dlltool"
@@ -1130,7 +1082,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1181,11 +1133,12 @@ events:
     names:
       - "addr2line"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1199,7 +1152,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1212,10 +1164,16 @@ events:
       - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/"
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
+    searched_directories:
+      - "/mnt/c/MinGW/bin/addr2line"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1266,11 +1224,12 @@ events:
     names:
       - "tapi"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1284,7 +1243,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1298,11 +1256,12 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/tapi"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/tapi"
+      - "/mnt/c/MinGW/bin/tapi"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
       - "/sbin/tapi"
       - "/bin/tapi"
       - "/usr/games/tapi"
@@ -1316,7 +1275,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/tapi"
       - "/mnt/c/WINDOWS/System32/OpenSSH/tapi"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/tapi"
-      - "/mnt/c/MinGW/bin/tapi"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/tapi"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/tapi"
@@ -1332,7 +1290,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1381,16 +1339,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ar-15.2"
-      - "gcc-ar-15"
-      - "gcc-ar15"
+      - "gcc-ar-6.3"
+      - "gcc-ar-6"
+      - "gcc-ar6"
       - "gcc-ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1404,7 +1363,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1418,41 +1376,108 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ar-15.2"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
-      - "/usr/local/bin/gcc-ar-15.2"
-      - "/usr/sbin/gcc-ar-15.2"
-      - "/sbin/gcc-ar-15.2"
-      - "/bin/gcc-ar-15.2"
-      - "/usr/games/gcc-ar-15.2"
-      - "/usr/local/games/gcc-ar-15.2"
-      - "/usr/lib/wsl/lib/gcc-ar-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/system32/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-15.2"
-      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.2"
-      - "/mnt/c/MinGW/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Git/cmd/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Go/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/go/bin/gcc-ar-15.2"
-      - "/snap/bin/gcc-ar-15.2"
-    found: "/usr/bin/gcc-ar-15"
+      - "/mnt/c/MinGW/bin/gcc-ar-6.3"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-6.3"
+      - "/usr/local/sbin/gcc-ar-6.3"
+      - "/usr/local/bin/gcc-ar-6.3"
+      - "/usr/sbin/gcc-ar-6.3"
+      - "/usr/bin/gcc-ar-6.3"
+      - "/sbin/gcc-ar-6.3"
+      - "/bin/gcc-ar-6.3"
+      - "/usr/games/gcc-ar-6.3"
+      - "/usr/local/games/gcc-ar-6.3"
+      - "/usr/lib/wsl/lib/gcc-ar-6.3"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/system32/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-6.3"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-6.3"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar-6.3"
+      - "/snap/bin/gcc-ar-6.3"
+      - "/mnt/c/MinGW/bin/gcc-ar-6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-6"
+      - "/usr/local/sbin/gcc-ar-6"
+      - "/usr/local/bin/gcc-ar-6"
+      - "/usr/sbin/gcc-ar-6"
+      - "/usr/bin/gcc-ar-6"
+      - "/sbin/gcc-ar-6"
+      - "/bin/gcc-ar-6"
+      - "/usr/games/gcc-ar-6"
+      - "/usr/local/games/gcc-ar-6"
+      - "/usr/lib/wsl/lib/gcc-ar-6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6"
+      - "/mnt/c/WINDOWS/system32/gcc-ar-6"
+      - "/mnt/c/WINDOWS/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar-6"
+      - "/snap/bin/gcc-ar-6"
+      - "/mnt/c/MinGW/bin/gcc-ar6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar6"
+      - "/usr/local/sbin/gcc-ar6"
+      - "/usr/local/bin/gcc-ar6"
+      - "/usr/sbin/gcc-ar6"
+      - "/usr/bin/gcc-ar6"
+      - "/sbin/gcc-ar6"
+      - "/bin/gcc-ar6"
+      - "/usr/games/gcc-ar6"
+      - "/usr/local/games/gcc-ar6"
+      - "/usr/lib/wsl/lib/gcc-ar6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar6"
+      - "/mnt/c/WINDOWS/system32/gcc-ar6"
+      - "/mnt/c/WINDOWS/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar6"
+      - "/snap/bin/gcc-ar6"
+      - "/mnt/c/MinGW/bin/gcc-ar"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar"
+      - "/usr/local/sbin/gcc-ar"
+      - "/usr/local/bin/gcc-ar"
+      - "/usr/sbin/gcc-ar"
+    found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1501,16 +1526,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ranlib-15.2"
-      - "gcc-ranlib-15"
-      - "gcc-ranlib15"
+      - "gcc-ranlib-6.3"
+      - "gcc-ranlib-6"
+      - "gcc-ranlib6"
       - "gcc-ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1524,7 +1550,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1538,105 +1563,108 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ranlib-15.2"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
-      - "/usr/local/bin/gcc-ranlib-15.2"
-      - "/usr/sbin/gcc-ranlib-15.2"
-      - "/sbin/gcc-ranlib-15.2"
-      - "/bin/gcc-ranlib-15.2"
-      - "/usr/games/gcc-ranlib-15.2"
-      - "/usr/local/games/gcc-ranlib-15.2"
-      - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/system32/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.2"
-      - "/mnt/c/MinGW/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-15.2"
-      - "/snap/bin/gcc-ranlib-15.2"
-    found: "/usr/bin/gcc-ranlib-15"
+      - "/mnt/c/MinGW/bin/gcc-ranlib-6.3"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-6.3"
+      - "/usr/local/sbin/gcc-ranlib-6.3"
+      - "/usr/local/bin/gcc-ranlib-6.3"
+      - "/usr/sbin/gcc-ranlib-6.3"
+      - "/usr/bin/gcc-ranlib-6.3"
+      - "/sbin/gcc-ranlib-6.3"
+      - "/bin/gcc-ranlib-6.3"
+      - "/usr/games/gcc-ranlib-6.3"
+      - "/usr/local/games/gcc-ranlib-6.3"
+      - "/usr/lib/wsl/lib/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-6.3"
+      - "/snap/bin/gcc-ranlib-6.3"
+      - "/mnt/c/MinGW/bin/gcc-ranlib-6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-6"
+      - "/usr/local/sbin/gcc-ranlib-6"
+      - "/usr/local/bin/gcc-ranlib-6"
+      - "/usr/sbin/gcc-ranlib-6"
+      - "/usr/bin/gcc-ranlib-6"
+      - "/sbin/gcc-ranlib-6"
+      - "/bin/gcc-ranlib-6"
+      - "/usr/games/gcc-ranlib-6"
+      - "/usr/local/games/gcc-ranlib-6"
+      - "/usr/lib/wsl/lib/gcc-ranlib-6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-6"
+      - "/snap/bin/gcc-ranlib-6"
+      - "/mnt/c/MinGW/bin/gcc-ranlib6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib6"
+      - "/usr/local/sbin/gcc-ranlib6"
+      - "/usr/local/bin/gcc-ranlib6"
+      - "/usr/sbin/gcc-ranlib6"
+      - "/usr/bin/gcc-ranlib6"
+      - "/sbin/gcc-ranlib6"
+      - "/bin/gcc-ranlib6"
+      - "/usr/games/gcc-ranlib6"
+      - "/usr/local/games/gcc-ranlib6"
+      - "/usr/lib/wsl/lib/gcc-ranlib6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib6"
+      - "/snap/bin/gcc-ranlib6"
+      - "/mnt/c/MinGW/bin/gcc-ranlib"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib"
+      - "/usr/local/sbin/gcc-ranlib"
+      - "/usr/local/bin/gcc-ranlib"
+      - "/usr/sbin/gcc-ranlib"
+    found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/usr/lib/wsl/lib"
-        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe"
-        - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath"
-        - "/mnt/c/WINDOWS/system32"
-        - "/mnt/c/WINDOWS"
-        - "/mnt/c/WINDOWS/System32/Wbem"
-        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "/mnt/c/WINDOWS/System32/OpenSSH/"
-        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "/mnt/c/MinGW/bin"
-        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
-        - "/mnt/c/Program Files/Java/jdk-25.0.3/bin"
-        - "/mnt/c/Program Files/apache-maven-3.9.16/bin"
-        - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin"
-        - "/mnt/c/Program Files/Git/cmd"
-        - "/mnt/c/Program Files/Go/bin"
-        - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/"
-        - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps"
-        - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin"
-        - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin"
-        - "/mnt/c/Users/dassu/go/bin"
-        - "/snap/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "CC"
-      - "g++"
-      - "aCC"
-      - "cl"
-      - "bcc"
-      - "xlC"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/c++"
-    search_context:
-      ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1694,7 +1722,7 @@ events:
     found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1734,7 +1762,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /mnt/c/MinGW/bin/g++.exe 
       Build flags: 
       Id flags:  
       
@@ -1742,10 +1770,10 @@ events:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        /home/sudo_subhankar/MiniKafka/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+        /home/sudo_subhankar/MiniKafka/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -1765,16 +1793,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ar-15.2"
-      - "gcc-ar-15"
-      - "gcc-ar15"
+      - "gcc-ar-6.3"
+      - "gcc-ar-6"
+      - "gcc-ar6"
       - "gcc-ar"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1788,7 +1817,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1802,41 +1830,108 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ar-15.2"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/gcc-ar-15.2"
-      - "/usr/local/sbin/gcc-ar-15.2"
-      - "/usr/local/bin/gcc-ar-15.2"
-      - "/usr/sbin/gcc-ar-15.2"
-      - "/sbin/gcc-ar-15.2"
-      - "/bin/gcc-ar-15.2"
-      - "/usr/games/gcc-ar-15.2"
-      - "/usr/local/games/gcc-ar-15.2"
-      - "/usr/lib/wsl/lib/gcc-ar-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/system32/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
-      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-15.2"
-      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-15.2"
-      - "/mnt/c/MinGW/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Git/cmd/gcc-ar-15.2"
-      - "/mnt/c/Program Files/Go/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
-      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-15.2"
-      - "/mnt/c/Users/dassu/go/bin/gcc-ar-15.2"
-      - "/snap/bin/gcc-ar-15.2"
-    found: "/usr/bin/gcc-ar-15"
+      - "/mnt/c/MinGW/bin/gcc-ar-6.3"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-6.3"
+      - "/usr/local/sbin/gcc-ar-6.3"
+      - "/usr/local/bin/gcc-ar-6.3"
+      - "/usr/sbin/gcc-ar-6.3"
+      - "/usr/bin/gcc-ar-6.3"
+      - "/sbin/gcc-ar-6.3"
+      - "/bin/gcc-ar-6.3"
+      - "/usr/games/gcc-ar-6.3"
+      - "/usr/local/games/gcc-ar-6.3"
+      - "/usr/lib/wsl/lib/gcc-ar-6.3"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/system32/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-6.3"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-6.3"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-6.3"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-6.3"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-6.3"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar-6.3"
+      - "/snap/bin/gcc-ar-6.3"
+      - "/mnt/c/MinGW/bin/gcc-ar-6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar-6"
+      - "/usr/local/sbin/gcc-ar-6"
+      - "/usr/local/bin/gcc-ar-6"
+      - "/usr/sbin/gcc-ar-6"
+      - "/usr/bin/gcc-ar-6"
+      - "/sbin/gcc-ar-6"
+      - "/bin/gcc-ar-6"
+      - "/usr/games/gcc-ar-6"
+      - "/usr/local/games/gcc-ar-6"
+      - "/usr/lib/wsl/lib/gcc-ar-6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar-6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6"
+      - "/mnt/c/WINDOWS/system32/gcc-ar-6"
+      - "/mnt/c/WINDOWS/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar-6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar-6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar-6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar-6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar-6"
+      - "/snap/bin/gcc-ar-6"
+      - "/mnt/c/MinGW/bin/gcc-ar6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar6"
+      - "/usr/local/sbin/gcc-ar6"
+      - "/usr/local/bin/gcc-ar6"
+      - "/usr/sbin/gcc-ar6"
+      - "/usr/bin/gcc-ar6"
+      - "/sbin/gcc-ar6"
+      - "/bin/gcc-ar6"
+      - "/usr/games/gcc-ar6"
+      - "/usr/local/games/gcc-ar6"
+      - "/usr/lib/wsl/lib/gcc-ar6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ar6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ar6"
+      - "/mnt/c/WINDOWS/system32/gcc-ar6"
+      - "/mnt/c/WINDOWS/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ar6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ar6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ar6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ar6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ar6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ar6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ar6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ar6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ar6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ar6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ar6"
+      - "/snap/bin/gcc-ar6"
+      - "/mnt/c/MinGW/bin/gcc-ar"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ar"
+      - "/usr/local/sbin/gcc-ar"
+      - "/usr/local/bin/gcc-ar"
+      - "/usr/sbin/gcc-ar"
+    found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1885,16 +1980,17 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "gcc-ranlib-15.2"
-      - "gcc-ranlib-15"
-      - "gcc-ranlib15"
+      - "gcc-ranlib-6.3"
+      - "gcc-ranlib-6"
+      - "gcc-ranlib6"
       - "gcc-ranlib"
     candidate_directories:
-      - "/usr/bin/"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/"
+      - "/mnt/c/MinGW/bin/"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
+      - "/usr/bin/"
       - "/sbin/"
       - "/bin/"
       - "/usr/games/"
@@ -1908,7 +2004,6 @@ events:
       - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
-      - "/mnt/c/MinGW/bin/"
       - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/"
       - "/mnt/c/Program Files/apache-maven-3.9.16/bin/"
@@ -1922,41 +2017,108 @@ events:
       - "/mnt/c/Users/dassu/go/bin/"
       - "/snap/bin/"
     searched_directories:
-      - "/usr/bin/gcc-ranlib-15.2"
-      - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli/gcc-ranlib-15.2"
-      - "/usr/local/sbin/gcc-ranlib-15.2"
-      - "/usr/local/bin/gcc-ranlib-15.2"
-      - "/usr/sbin/gcc-ranlib-15.2"
-      - "/sbin/gcc-ranlib-15.2"
-      - "/bin/gcc-ranlib-15.2"
-      - "/usr/games/gcc-ranlib-15.2"
-      - "/usr/local/games/gcc-ranlib-15.2"
-      - "/usr/lib/wsl/lib/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/system32/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
-      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-15.2"
-      - "/mnt/c/MinGW/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-15.2"
-      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-15.2"
-      - "/snap/bin/gcc-ranlib-15.2"
-    found: "/usr/bin/gcc-ranlib-15"
+      - "/mnt/c/MinGW/bin/gcc-ranlib-6.3"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-6.3"
+      - "/usr/local/sbin/gcc-ranlib-6.3"
+      - "/usr/local/bin/gcc-ranlib-6.3"
+      - "/usr/sbin/gcc-ranlib-6.3"
+      - "/usr/bin/gcc-ranlib-6.3"
+      - "/sbin/gcc-ranlib-6.3"
+      - "/bin/gcc-ranlib-6.3"
+      - "/usr/games/gcc-ranlib-6.3"
+      - "/usr/local/games/gcc-ranlib-6.3"
+      - "/usr/lib/wsl/lib/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-6.3"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-6.3"
+      - "/snap/bin/gcc-ranlib-6.3"
+      - "/mnt/c/MinGW/bin/gcc-ranlib-6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib-6"
+      - "/usr/local/sbin/gcc-ranlib-6"
+      - "/usr/local/bin/gcc-ranlib-6"
+      - "/usr/sbin/gcc-ranlib-6"
+      - "/usr/bin/gcc-ranlib-6"
+      - "/sbin/gcc-ranlib-6"
+      - "/bin/gcc-ranlib-6"
+      - "/usr/games/gcc-ranlib-6"
+      - "/usr/local/games/gcc-ranlib-6"
+      - "/usr/lib/wsl/lib/gcc-ranlib-6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib-6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib-6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib-6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib-6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib-6"
+      - "/snap/bin/gcc-ranlib-6"
+      - "/mnt/c/MinGW/bin/gcc-ranlib6"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib6"
+      - "/usr/local/sbin/gcc-ranlib6"
+      - "/usr/local/bin/gcc-ranlib6"
+      - "/usr/sbin/gcc-ranlib6"
+      - "/usr/bin/gcc-ranlib6"
+      - "/sbin/gcc-ranlib6"
+      - "/bin/gcc-ranlib6"
+      - "/usr/games/gcc-ranlib6"
+      - "/usr/local/games/gcc-ranlib6"
+      - "/usr/lib/wsl/lib/gcc-ranlib6"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.11.0_x64__8wekyb3d8bbwe/gcc-ranlib6"
+      - "/mnt/c/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/system32/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/Wbem/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/gcc-ranlib6"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib6"
+      - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcc-ranlib6"
+      - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib6"
+      - "/mnt/c/Program Files/Java/jdk-25.0.3/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/apache-maven-3.9.16/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/Git/cmd/gcc-ranlib6"
+      - "/mnt/c/Program Files/Go/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2025.2.6.2/bin/gcc-ranlib6"
+      - "/mnt/c/Users/dassu/go/bin/gcc-ranlib6"
+      - "/snap/bin/gcc-ranlib6"
+      - "/mnt/c/MinGW/bin/gcc-ranlib"
+      - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli/gcc-ranlib"
+      - "/usr/local/sbin/gcc-ranlib"
+      - "/usr/local/bin/gcc-ranlib"
+      - "/usr/sbin/gcc-ranlib"
+    found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/sudo_subhankar/.vscode-server/bin/08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/bin/remote-cli"
+        - "/home/sudo_subhankar/.vscode-server/bin/88e44fa0e00b08f7758b4f6d05632e4fd5e4df6f/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1996,8 +2158,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP"
-      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP"
+      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-EYOf8P"
+      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-EYOf8P"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2006,241 +2168,99 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP'
+        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-EYOf8P'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f731/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9f731.dir/build.make CMakeFiles/cmTC_9f731.dir/build
-        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP'
-        Building C object CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_39238/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_39238.dir/build.make CMakeFiles/cmTC_39238.dir/build
+        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-EYOf8P'
+        Building C object CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o
+        /mnt/c/MinGW/bin/gcc.exe   -v -o CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f731.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccEwnEkv.s
-        GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
-        
+        COLLECT_GCC=gcc.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o -version -o C:\\Users\\dassu\\AppData\\Local\\Temp\\cco9LvRc.s
+        GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /usr/lib/gcc/x86_64-linux-gnu/15/include
-         /usr/local/include
-         /usr/include/x86_64-linux-gnu
-         /usr/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
         End of search list.
-        Compiler executable checksum: edd70396dcc669433a92073f97309866
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o /tmp/ccEwnEkv.s
-        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_9f731
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f731.dir/link.txt --verbose=1
+        GNU C11 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 384cad586f05ed581a9c068b2f18b408
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o C:\\Users\\dassu\\AppData\\Local\\Temp\\cco9LvRc.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../;/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+        Linking C executable cmTC_39238
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39238.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
-        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f731' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9f731.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOP8YOX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f731 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOP8YOX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f731 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f731' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9f731.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -o cmTC_9f731
-        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP'
+        COLLECT_GCC=gcc.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../;/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39238.exe' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\dassu\\AppData\\Local\\Temp\\ccR5tycu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_39238.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        collect2 version 6.3.0
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\dassu\\AppData\\Local\\Temp\\ccR5tycu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_39238.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.28
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_39238.exe' '-mtune=generic' '-march=i586'
+        /mnt/c/MinGW/bin/gcc.exe  -v -Wl,-v CMakeFiles/cmTC_39238.dir/CMakeCCompilerABI.c.o -o cmTC_39238
+        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-EYOf8P'
         
       exitCode: 0
   -
-    kind: "message-v1"
+    kind: "try_compile-v1"
     backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
       - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
-          add: [/usr/local/include]
-          add: [/usr/include/x86_64-linux-gnu]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP']
-        ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f731/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9f731.dir/build.make CMakeFiles/cmTC_9f731.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-qgAvlP']
-        ignore line: [Building C object CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f731.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccEwnEkv.s]
-        ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/include/x86_64-linux-gnu]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o /tmp/ccEwnEkv.s]
-        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_9f731]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f731.dir/link.txt --verbose=1]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9f731' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9f731.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOP8YOX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f731 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccOP8YOX.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_9f731] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
-          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
-          arg [-L/lib] ==> dir [/lib]
-          arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [-lc] ==> lib [c]
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-        ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOP8YOX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9f731 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9f731.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-        linker tool for 'C': /usr/bin/ld
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
-        collapse library dir [/lib] ==> [/lib]
-        collapse library dir [/usr/lib] ==> [/usr/lib]
-        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the C compiler's linker: "/usr/bin/ld" "-v"
-      GNU ld (GNU Binutils for Ubuntu) 2.46
+    checks:
+      - "Check for working C compiler: /mnt/c/MinGW/bin/gcc.exe"
+    directories:
+      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv"
+      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50323/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_50323.dir/build.make CMakeFiles/cmTC_50323.dir/build
+        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv'
+        Building C object CMakeFiles/cmTC_50323.dir/testCCompiler.c.o
+        /mnt/c/MinGW/bin/gcc.exe    -o CMakeFiles/cmTC_50323.dir/testCCompiler.c.o -c /home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv/testCCompiler.c
+        Linking C executable cmTC_50323
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50323.dir/link.txt --verbose=1
+        /mnt/c/MinGW/bin/gcc.exe CMakeFiles/cmTC_50323.dir/testCCompiler.c.o -o cmTC_50323
+        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-D6X6pv'
+        
+      exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2250,8 +2270,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO"
-      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO"
+      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-yGXWKV"
+      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-yGXWKV"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2261,283 +2281,73 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO'
+        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-yGXWKV'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82651/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_82651.dir/build.make CMakeFiles/cmTC_82651.dir/build
-        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO'
-        Building CXX object CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed048/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ed048.dir/build.make CMakeFiles/cmTC_ed048.dir/build
+        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-yGXWKV'
+        Building CXX object CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o
+        /mnt/c/MinGW/bin/g++.exe   -v -o CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccd3ebG9.s
-        GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
-        
+        COLLECT_GCC=g++.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o -version -o C:\\Users\\dassu\\AppData\\Local\\Temp\\ccYQAcvM.s
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"
-        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /usr/include/c++/15
-         /usr/include/x86_64-linux-gnu/c++/15
-         /usr/include/c++/15/backward
-         /usr/lib/gcc/x86_64-linux-gnu/15/include
-         /usr/local/include
-         /usr/include/x86_64-linux-gnu
-         /usr/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
         End of search list.
-        Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccd3ebG9.s
-        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_82651
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82651.dir/link.txt --verbose=1
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: af09a87986453bf79da3565f33c7648f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o C:\\Users\\dassu\\AppData\\Local\\Temp\\ccYQAcvM.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../;/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_ed048
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed048.dir/link.txt --verbose=1
         Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82651' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82651.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZJbfqF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82651 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZJbfqF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82651 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
-        GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82651' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82651.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_82651
-        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO'
+        COLLECT_GCC=g++.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../;/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed048.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\dassu\\AppData\\Local\\Temp\\ccW7eam9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_ed048.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        collect2 version 6.3.0
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\dassu\\AppData\\Local\\Temp\\ccW7eam9.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_ed048.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.28
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ed048.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        /mnt/c/MinGW/bin/g++.exe  -v -Wl,-v CMakeFiles/cmTC_ed048.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed048
+        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-yGXWKV'
         
       exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/include/c++/15]
-          add: [/usr/include/x86_64-linux-gnu/c++/15]
-          add: [/usr/include/c++/15/backward]
-          add: [/usr/lib/gcc/x86_64-linux-gnu/15/include]
-          add: [/usr/local/include]
-          add: [/usr/include/x86_64-linux-gnu]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/usr/include/c++/15] ==> [/usr/include/c++/15]
-        collapse include dir [/usr/include/x86_64-linux-gnu/c++/15] ==> [/usr/include/x86_64-linux-gnu/c++/15]
-        collapse include dir [/usr/include/c++/15/backward] ==> [/usr/include/c++/15/backward]
-        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/15/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/15;/usr/include/x86_64-linux-gnu/c++/15;/usr/include/c++/15/backward;/usr/lib/gcc/x86_64-linux-gnu/15/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO']
-        ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82651/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_82651.dir/build.make CMakeFiles/cmTC_82651.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-BFbDJO']
-        ignore line: [Building CXX object CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccd3ebG9.s]
-        ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/15"]
-        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/include-fixed"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/include/c++/15]
-        ignore line: [ /usr/include/x86_64-linux-gnu/c++/15]
-        ignore line: [ /usr/include/c++/15/backward]
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/15/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/include/x86_64-linux-gnu]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccd3ebG9.s]
-        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_82651]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82651.dir/link.txt --verbose=1]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82651' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_82651.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZJbfqF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82651 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccZJbfqF.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_82651] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib]
-          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..]
-          arg [-L/lib] ==> dir [/lib]
-          arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lstdc++] ==> lib [stdc++]
-          arg [-lm] ==> lib [m]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-        ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZJbfqF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82651 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_82651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
-        linker tool for 'CXX': /usr/bin/ld
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/usr/lib/gcc/x86_64-linux-gnu/15]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/usr/lib]
-        collapse library dir [/lib] ==> [/lib]
-        collapse library dir [/usr/lib] ==> [/usr/lib]
-        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/15;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
-      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
-      GNU ld (GNU Binutils for Ubuntu) 2.46
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
-      - "/usr/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
-      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
-      - "/usr/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
-      - "CMakeLists.txt:21 (find_package)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
-    directories:
-      source: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd"
-      binary: "/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_LIBC_PTHREAD"
-      cached: true
-      stdout: |
-        Change Dir: '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd'
-        
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13429/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_13429.dir/build.make CMakeFiles/cmTC_13429.dir/build
-        gmake[1]: Entering directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd'
-        Building C object CMakeFiles/cmTC_13429.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_13429.dir/src.c.o -c /home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd/src.c
-        Linking C executable cmTC_13429
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13429.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_13429.dir/src.c.o -o cmTC_13429
-        gmake[1]: Leaving directory '/home/sudo_subhankar/MiniKafka/build/CMakeFiles/CMakeScratch/TryCompile-p1dMjd'
-        
-      exitCode: 0
-...

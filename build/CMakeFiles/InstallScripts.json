@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/sudo_subhankar/MiniKafka/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
