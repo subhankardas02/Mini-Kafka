@@ -1,24 +1,67 @@
-cmake_minimum_required(VERSION 3.10)
-project(MiniKafkaTCP)
+cmake_minimum_required(VERSION 3.16)
 
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+project(MiniKafka
+        VERSION 1.0
+        LANGUAGES CXX)
+
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Boost REQUIRED)
-find_package(Threads REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic")
 
 include_directories(include)
 
-add_executable(kafka_server 
-    src/Topic.cpp 
-    src/Broker.cpp 
-    src/server.cpp
+set(COMMON_SRC
+    src/common/Logger.cpp
+    src/common/Utils.cpp
 )
-target_link_libraries(kafka_server Threads::Threads Boost::boost)
 
-add_executable(kafka_producer src/producer.cpp)
-target_link_libraries(kafka_producer Threads::Threads Boost::boost)
+set(NETWORK_SRC
+    src/network/Socket.cpp
+    src/network/Protocol.cpp
+)
 
-add_executable(kafka_consumer src/consumer.cpp)
-target_link_libraries(kafka_consumer Threads::Threads Boost::boost)
+set(STORAGE_SRC
+    src/storage/Message.cpp
+    src/storage/Partition.cpp
+    src/storage/Log.cpp
+)
+
+set(BROKER_SRC
+    src/broker/Broker.cpp
+    src/broker/ClientHandler.cpp
+    src/broker/TopicManager.cpp
+)
+
+set(CLIENT_SRC
+    src/client/Producer.cpp
+    src/client/Consumer.cpp
+    src/storage/Message.cpp
+)
+
+add_executable(mini-kafka-broker
+    apps/broker_main.cpp
+    ${COMMON_SRC}
+    ${NETWORK_SRC}
+    ${STORAGE_SRC}
+    ${BROKER_SRC}
+)
+
+add_executable(mini-kafka-producer
+    apps/producer_main.cpp
+    ${COMMON_SRC}
+    ${NETWORK_SRC}
+    ${CLIENT_SRC}
+)
+
+add_executable(mini-kafka-consumer
+    apps/consumer_main.cpp
+    ${COMMON_SRC}
+    ${NETWORK_SRC}
+    ${CLIENT_SRC}
+)
+
+target_link_libraries(mini-kafka-broker pthread)
+target_link_libraries(mini-kafka-producer pthread)
+target_link_libraries(mini-kafka-consumer pthread)
+

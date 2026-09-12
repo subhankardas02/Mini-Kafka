@@ -1,0 +1,5 @@
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/mini-kafka-broker.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/mini-kafka-producer.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/mini-kafka-consumer.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/edit_cache.dir
+/home/sudo_subhankar/MiniKafka/build/CMakeFiles/rebuild_cache.dir

@@ -117,137 +117,439 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mini_kafka
+# Target rules for targets named mini-kafka-broker
 
 # Build rule for target.
-mini_kafka: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mini_kafka
-.PHONY : mini_kafka
+mini-kafka-broker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mini-kafka-broker
+.PHONY : mini-kafka-broker
 
 # fast build rule for target.
-mini_kafka/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/build
-.PHONY : mini_kafka/fast
+mini-kafka-broker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/build
+.PHONY : mini-kafka-broker/fast
 
-src/Broker.o: src/Broker.cpp.o
-.PHONY : src/Broker.o
+#=============================================================================
+# Target rules for targets named mini-kafka-producer
 
-# target to build an object file
-src/Broker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Broker.cpp.o
-.PHONY : src/Broker.cpp.o
+# Build rule for target.
+mini-kafka-producer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mini-kafka-producer
+.PHONY : mini-kafka-producer
 
-src/Broker.i: src/Broker.cpp.i
-.PHONY : src/Broker.i
+# fast build rule for target.
+mini-kafka-producer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/build
+.PHONY : mini-kafka-producer/fast
 
-# target to preprocess a source file
-src/Broker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Broker.cpp.i
-.PHONY : src/Broker.cpp.i
+#=============================================================================
+# Target rules for targets named mini-kafka-consumer
 
-src/Broker.s: src/Broker.cpp.s
-.PHONY : src/Broker.s
+# Build rule for target.
+mini-kafka-consumer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mini-kafka-consumer
+.PHONY : mini-kafka-consumer
 
-# target to generate assembly for a file
-src/Broker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Broker.cpp.s
-.PHONY : src/Broker.cpp.s
+# fast build rule for target.
+mini-kafka-consumer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/build
+.PHONY : mini-kafka-consumer/fast
 
-src/Consumer.o: src/Consumer.cpp.o
-.PHONY : src/Consumer.o
-
-# target to build an object file
-src/Consumer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Consumer.cpp.o
-.PHONY : src/Consumer.cpp.o
-
-src/Consumer.i: src/Consumer.cpp.i
-.PHONY : src/Consumer.i
-
-# target to preprocess a source file
-src/Consumer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Consumer.cpp.i
-.PHONY : src/Consumer.cpp.i
-
-src/Consumer.s: src/Consumer.cpp.s
-.PHONY : src/Consumer.s
-
-# target to generate assembly for a file
-src/Consumer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Consumer.cpp.s
-.PHONY : src/Consumer.cpp.s
-
-src/Producer.o: src/Producer.cpp.o
-.PHONY : src/Producer.o
+apps/broker_main.o: apps/broker_main.cpp.o
+.PHONY : apps/broker_main.o
 
 # target to build an object file
-src/Producer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Producer.cpp.o
-.PHONY : src/Producer.cpp.o
+apps/broker_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/apps/broker_main.cpp.o
+.PHONY : apps/broker_main.cpp.o
 
-src/Producer.i: src/Producer.cpp.i
-.PHONY : src/Producer.i
+apps/broker_main.i: apps/broker_main.cpp.i
+.PHONY : apps/broker_main.i
 
 # target to preprocess a source file
-src/Producer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Producer.cpp.i
-.PHONY : src/Producer.cpp.i
+apps/broker_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/apps/broker_main.cpp.i
+.PHONY : apps/broker_main.cpp.i
 
-src/Producer.s: src/Producer.cpp.s
-.PHONY : src/Producer.s
+apps/broker_main.s: apps/broker_main.cpp.s
+.PHONY : apps/broker_main.s
 
 # target to generate assembly for a file
-src/Producer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Producer.cpp.s
-.PHONY : src/Producer.cpp.s
+apps/broker_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/apps/broker_main.cpp.s
+.PHONY : apps/broker_main.cpp.s
 
-src/Topic.o: src/Topic.cpp.o
-.PHONY : src/Topic.o
+apps/consumer_main.o: apps/consumer_main.cpp.o
+.PHONY : apps/consumer_main.o
 
 # target to build an object file
-src/Topic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Topic.cpp.o
-.PHONY : src/Topic.cpp.o
+apps/consumer_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/apps/consumer_main.cpp.o
+.PHONY : apps/consumer_main.cpp.o
 
-src/Topic.i: src/Topic.cpp.i
-.PHONY : src/Topic.i
+apps/consumer_main.i: apps/consumer_main.cpp.i
+.PHONY : apps/consumer_main.i
 
 # target to preprocess a source file
-src/Topic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Topic.cpp.i
-.PHONY : src/Topic.cpp.i
+apps/consumer_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/apps/consumer_main.cpp.i
+.PHONY : apps/consumer_main.cpp.i
 
-src/Topic.s: src/Topic.cpp.s
-.PHONY : src/Topic.s
+apps/consumer_main.s: apps/consumer_main.cpp.s
+.PHONY : apps/consumer_main.s
 
 # target to generate assembly for a file
-src/Topic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/Topic.cpp.s
-.PHONY : src/Topic.cpp.s
+apps/consumer_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/apps/consumer_main.cpp.s
+.PHONY : apps/consumer_main.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+apps/producer_main.o: apps/producer_main.cpp.o
+.PHONY : apps/producer_main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+apps/producer_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/apps/producer_main.cpp.o
+.PHONY : apps/producer_main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+apps/producer_main.i: apps/producer_main.cpp.i
+.PHONY : apps/producer_main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+apps/producer_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/apps/producer_main.cpp.i
+.PHONY : apps/producer_main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+apps/producer_main.s: apps/producer_main.cpp.s
+.PHONY : apps/producer_main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_kafka.dir/build.make CMakeFiles/mini_kafka.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+apps/producer_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/apps/producer_main.cpp.s
+.PHONY : apps/producer_main.cpp.s
+
+src/broker/Broker.o: src/broker/Broker.cpp.o
+.PHONY : src/broker/Broker.o
+
+# target to build an object file
+src/broker/Broker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/Broker.cpp.o
+.PHONY : src/broker/Broker.cpp.o
+
+src/broker/Broker.i: src/broker/Broker.cpp.i
+.PHONY : src/broker/Broker.i
+
+# target to preprocess a source file
+src/broker/Broker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/Broker.cpp.i
+.PHONY : src/broker/Broker.cpp.i
+
+src/broker/Broker.s: src/broker/Broker.cpp.s
+.PHONY : src/broker/Broker.s
+
+# target to generate assembly for a file
+src/broker/Broker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/Broker.cpp.s
+.PHONY : src/broker/Broker.cpp.s
+
+src/broker/ClientHandler.o: src/broker/ClientHandler.cpp.o
+.PHONY : src/broker/ClientHandler.o
+
+# target to build an object file
+src/broker/ClientHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/ClientHandler.cpp.o
+.PHONY : src/broker/ClientHandler.cpp.o
+
+src/broker/ClientHandler.i: src/broker/ClientHandler.cpp.i
+.PHONY : src/broker/ClientHandler.i
+
+# target to preprocess a source file
+src/broker/ClientHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/ClientHandler.cpp.i
+.PHONY : src/broker/ClientHandler.cpp.i
+
+src/broker/ClientHandler.s: src/broker/ClientHandler.cpp.s
+.PHONY : src/broker/ClientHandler.s
+
+# target to generate assembly for a file
+src/broker/ClientHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/ClientHandler.cpp.s
+.PHONY : src/broker/ClientHandler.cpp.s
+
+src/broker/TopicManager.o: src/broker/TopicManager.cpp.o
+.PHONY : src/broker/TopicManager.o
+
+# target to build an object file
+src/broker/TopicManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/TopicManager.cpp.o
+.PHONY : src/broker/TopicManager.cpp.o
+
+src/broker/TopicManager.i: src/broker/TopicManager.cpp.i
+.PHONY : src/broker/TopicManager.i
+
+# target to preprocess a source file
+src/broker/TopicManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/TopicManager.cpp.i
+.PHONY : src/broker/TopicManager.cpp.i
+
+src/broker/TopicManager.s: src/broker/TopicManager.cpp.s
+.PHONY : src/broker/TopicManager.s
+
+# target to generate assembly for a file
+src/broker/TopicManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/broker/TopicManager.cpp.s
+.PHONY : src/broker/TopicManager.cpp.s
+
+src/client/Consumer.o: src/client/Consumer.cpp.o
+.PHONY : src/client/Consumer.o
+
+# target to build an object file
+src/client/Consumer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Consumer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Consumer.cpp.o
+.PHONY : src/client/Consumer.cpp.o
+
+src/client/Consumer.i: src/client/Consumer.cpp.i
+.PHONY : src/client/Consumer.i
+
+# target to preprocess a source file
+src/client/Consumer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Consumer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Consumer.cpp.i
+.PHONY : src/client/Consumer.cpp.i
+
+src/client/Consumer.s: src/client/Consumer.cpp.s
+.PHONY : src/client/Consumer.s
+
+# target to generate assembly for a file
+src/client/Consumer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Consumer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Consumer.cpp.s
+.PHONY : src/client/Consumer.cpp.s
+
+src/client/Producer.o: src/client/Producer.cpp.o
+.PHONY : src/client/Producer.o
+
+# target to build an object file
+src/client/Producer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Producer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Producer.cpp.o
+.PHONY : src/client/Producer.cpp.o
+
+src/client/Producer.i: src/client/Producer.cpp.i
+.PHONY : src/client/Producer.i
+
+# target to preprocess a source file
+src/client/Producer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Producer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Producer.cpp.i
+.PHONY : src/client/Producer.cpp.i
+
+src/client/Producer.s: src/client/Producer.cpp.s
+.PHONY : src/client/Producer.s
+
+# target to generate assembly for a file
+src/client/Producer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/client/Producer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/client/Producer.cpp.s
+.PHONY : src/client/Producer.cpp.s
+
+src/common/Logger.o: src/common/Logger.cpp.o
+.PHONY : src/common/Logger.o
+
+# target to build an object file
+src/common/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Logger.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Logger.cpp.o
+.PHONY : src/common/Logger.cpp.o
+
+src/common/Logger.i: src/common/Logger.cpp.i
+.PHONY : src/common/Logger.i
+
+# target to preprocess a source file
+src/common/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Logger.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Logger.cpp.i
+.PHONY : src/common/Logger.cpp.i
+
+src/common/Logger.s: src/common/Logger.cpp.s
+.PHONY : src/common/Logger.s
+
+# target to generate assembly for a file
+src/common/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Logger.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Logger.cpp.s
+.PHONY : src/common/Logger.cpp.s
+
+src/common/Utils.o: src/common/Utils.cpp.o
+.PHONY : src/common/Utils.o
+
+# target to build an object file
+src/common/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Utils.cpp.o
+.PHONY : src/common/Utils.cpp.o
+
+src/common/Utils.i: src/common/Utils.cpp.i
+.PHONY : src/common/Utils.i
+
+# target to preprocess a source file
+src/common/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Utils.cpp.i
+.PHONY : src/common/Utils.cpp.i
+
+src/common/Utils.s: src/common/Utils.cpp.s
+.PHONY : src/common/Utils.s
+
+# target to generate assembly for a file
+src/common/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/common/Utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/common/Utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/common/Utils.cpp.s
+.PHONY : src/common/Utils.cpp.s
+
+src/network/Protocol.o: src/network/Protocol.cpp.o
+.PHONY : src/network/Protocol.o
+
+# target to build an object file
+src/network/Protocol.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Protocol.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Protocol.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Protocol.cpp.o
+.PHONY : src/network/Protocol.cpp.o
+
+src/network/Protocol.i: src/network/Protocol.cpp.i
+.PHONY : src/network/Protocol.i
+
+# target to preprocess a source file
+src/network/Protocol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Protocol.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Protocol.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Protocol.cpp.i
+.PHONY : src/network/Protocol.cpp.i
+
+src/network/Protocol.s: src/network/Protocol.cpp.s
+.PHONY : src/network/Protocol.s
+
+# target to generate assembly for a file
+src/network/Protocol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Protocol.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Protocol.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Protocol.cpp.s
+.PHONY : src/network/Protocol.cpp.s
+
+src/network/Socket.o: src/network/Socket.cpp.o
+.PHONY : src/network/Socket.o
+
+# target to build an object file
+src/network/Socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Socket.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Socket.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Socket.cpp.o
+.PHONY : src/network/Socket.cpp.o
+
+src/network/Socket.i: src/network/Socket.cpp.i
+.PHONY : src/network/Socket.i
+
+# target to preprocess a source file
+src/network/Socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Socket.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Socket.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Socket.cpp.i
+.PHONY : src/network/Socket.cpp.i
+
+src/network/Socket.s: src/network/Socket.cpp.s
+.PHONY : src/network/Socket.s
+
+# target to generate assembly for a file
+src/network/Socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/network/Socket.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/network/Socket.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/network/Socket.cpp.s
+.PHONY : src/network/Socket.cpp.s
+
+src/storage/Log.o: src/storage/Log.cpp.o
+.PHONY : src/storage/Log.o
+
+# target to build an object file
+src/storage/Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Log.cpp.o
+.PHONY : src/storage/Log.cpp.o
+
+src/storage/Log.i: src/storage/Log.cpp.i
+.PHONY : src/storage/Log.i
+
+# target to preprocess a source file
+src/storage/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Log.cpp.i
+.PHONY : src/storage/Log.cpp.i
+
+src/storage/Log.s: src/storage/Log.cpp.s
+.PHONY : src/storage/Log.s
+
+# target to generate assembly for a file
+src/storage/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Log.cpp.s
+.PHONY : src/storage/Log.cpp.s
+
+src/storage/Message.o: src/storage/Message.cpp.o
+.PHONY : src/storage/Message.o
+
+# target to build an object file
+src/storage/Message.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Message.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/storage/Message.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/storage/Message.cpp.o
+.PHONY : src/storage/Message.cpp.o
+
+src/storage/Message.i: src/storage/Message.cpp.i
+.PHONY : src/storage/Message.i
+
+# target to preprocess a source file
+src/storage/Message.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Message.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/storage/Message.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/storage/Message.cpp.i
+.PHONY : src/storage/Message.cpp.i
+
+src/storage/Message.s: src/storage/Message.cpp.s
+.PHONY : src/storage/Message.s
+
+# target to generate assembly for a file
+src/storage/Message.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Message.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-producer.dir/build.make CMakeFiles/mini-kafka-producer.dir/src/storage/Message.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-consumer.dir/build.make CMakeFiles/mini-kafka-consumer.dir/src/storage/Message.cpp.s
+.PHONY : src/storage/Message.cpp.s
+
+src/storage/Partition.o: src/storage/Partition.cpp.o
+.PHONY : src/storage/Partition.o
+
+# target to build an object file
+src/storage/Partition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Partition.cpp.o
+.PHONY : src/storage/Partition.cpp.o
+
+src/storage/Partition.i: src/storage/Partition.cpp.i
+.PHONY : src/storage/Partition.i
+
+# target to preprocess a source file
+src/storage/Partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Partition.cpp.i
+.PHONY : src/storage/Partition.cpp.i
+
+src/storage/Partition.s: src/storage/Partition.cpp.s
+.PHONY : src/storage/Partition.s
+
+# target to generate assembly for a file
+src/storage/Partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini-kafka-broker.dir/build.make CMakeFiles/mini-kafka-broker.dir/src/storage/Partition.cpp.s
+.PHONY : src/storage/Partition.cpp.s
 
 # Help Target
 help:
@@ -257,22 +559,54 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mini_kafka"
-	@echo "... src/Broker.o"
-	@echo "... src/Broker.i"
-	@echo "... src/Broker.s"
-	@echo "... src/Consumer.o"
-	@echo "... src/Consumer.i"
-	@echo "... src/Consumer.s"
-	@echo "... src/Producer.o"
-	@echo "... src/Producer.i"
-	@echo "... src/Producer.s"
-	@echo "... src/Topic.o"
-	@echo "... src/Topic.i"
-	@echo "... src/Topic.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... mini-kafka-broker"
+	@echo "... mini-kafka-consumer"
+	@echo "... mini-kafka-producer"
+	@echo "... apps/broker_main.o"
+	@echo "... apps/broker_main.i"
+	@echo "... apps/broker_main.s"
+	@echo "... apps/consumer_main.o"
+	@echo "... apps/consumer_main.i"
+	@echo "... apps/consumer_main.s"
+	@echo "... apps/producer_main.o"
+	@echo "... apps/producer_main.i"
+	@echo "... apps/producer_main.s"
+	@echo "... src/broker/Broker.o"
+	@echo "... src/broker/Broker.i"
+	@echo "... src/broker/Broker.s"
+	@echo "... src/broker/ClientHandler.o"
+	@echo "... src/broker/ClientHandler.i"
+	@echo "... src/broker/ClientHandler.s"
+	@echo "... src/broker/TopicManager.o"
+	@echo "... src/broker/TopicManager.i"
+	@echo "... src/broker/TopicManager.s"
+	@echo "... src/client/Consumer.o"
+	@echo "... src/client/Consumer.i"
+	@echo "... src/client/Consumer.s"
+	@echo "... src/client/Producer.o"
+	@echo "... src/client/Producer.i"
+	@echo "... src/client/Producer.s"
+	@echo "... src/common/Logger.o"
+	@echo "... src/common/Logger.i"
+	@echo "... src/common/Logger.s"
+	@echo "... src/common/Utils.o"
+	@echo "... src/common/Utils.i"
+	@echo "... src/common/Utils.s"
+	@echo "... src/network/Protocol.o"
+	@echo "... src/network/Protocol.i"
+	@echo "... src/network/Protocol.s"
+	@echo "... src/network/Socket.o"
+	@echo "... src/network/Socket.i"
+	@echo "... src/network/Socket.s"
+	@echo "... src/storage/Log.o"
+	@echo "... src/storage/Log.i"
+	@echo "... src/storage/Log.s"
+	@echo "... src/storage/Message.o"
+	@echo "... src/storage/Message.i"
+	@echo "... src/storage/Message.s"
+	@echo "... src/storage/Partition.o"
+	@echo "... src/storage/Partition.i"
+	@echo "... src/storage/Partition.s"
 .PHONY : help
 
 
